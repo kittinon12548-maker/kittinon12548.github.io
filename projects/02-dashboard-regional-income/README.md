@@ -2,7 +2,7 @@
 ### A Multidimensional Data Analytics Approach to Regional Income Patterns and Inequality in Thailand
 
 <p align="center">
-  <img src="./assets/หน้าbi.jpg" alt="Interactive Power BI Dashboard" width="100%" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+  <img src="./assets/dashboard-preview.jpg" alt="Interactive Power BI Dashboard" width="100%" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@
 
 ### 1. รายได้เฉลี่ยระดับภูมิภาคและผลกระทบของค่าผิดปกติ (Regional Income & Outliers)
 <p align="center">
-<img src="./assets/p3.jpeg" alt="อัตราการเติบโตของรายได้รายภูมิภาคและรายกลุ่มอาชีพ" width="85%">
+<img src="./assets/p2.jpeg" alt="รายได้เฉลี่ยรายภูมิภาคและผลกระทบของค่าผิดปกติ" width="85%">
   <br><em>รูปที่ 2: แผนภูมิแสดงรายได้เฉลี่ยรายภูมิภาคและผลกระทบของค่าผิดปกติ</em>
 </p>
 

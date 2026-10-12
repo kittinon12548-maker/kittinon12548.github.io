@@ -26,7 +26,7 @@
 | โปรเจกต์ | หมวดหมู่ | เทคโนโลยีหลัก | ลิงก์รายละเอียด |
 | :--- | :--- | :--- | :---: |
 | **🐱 PetGuard AI** | **AI / Pet-Tech / B2B API** | Python, PyTorch, YOLO, Laravel, Tailwind CSS | [👉 ดู Case Study](./projects/01-petguard-ai/) |
-| **📊 การวิเคราะห์ความเหลื่อมล้ำของรายได้ (มศว)** | **Data Analytics / BI & EDA** | Python, Power BI, Pandas, Gini Index | [👉 ดู Case Study](./projects/02-งานวิจัย%20มศว/) |
+| **📊 การวิเคราะห์ความเหลื่อมล้ำของรายได้ (มศว)** | **Data Analytics / BI & EDA** | Python, Power BI, Pandas, Gini Index | [👉 ดู Case Study](./projects/02-dashboard-regional-income/) |
 | **💡 Project 3 (Coming Soon)** | Mobile / Web App | (เตรียมเพิ่มผลงานถัดไป) | กำลังจัดทำ |
 
 ---
@@ -45,7 +45,7 @@
 
 ---
 
-### 2. 📊 [การวิเคราะห์ข้อมูลเชิงหลายมิติของรูปแบบและความเหลื่อมล้ำของรายได้ระดับภูมิภาคในประเทศไทย](./projects/02-งานวิจัย%20มศว/)
+### 2. 📊 [การวิเคราะห์ข้อมูลเชิงหลายมิติของรูปแบบและความเหลื่อมล้ำของรายได้ระดับภูมิภาคในประเทศไทย](./projects/02-dashboard-regional-income/)
 > **การศึกษาความเหลื่อมล้ำทางรายได้ระดับภูมิภาค (พ.ศ. 2554–2566) ด้วยกระบวนการ EDA, การตรวจจับ Outlier, การคำนวณ Gini Index และพัฒนา Interactive Power BI Dashboard**
 
 * **บทบาท:** Lead Data Researcher & Analytics Developer (ร่วมกับ อ.ดร.สุดา เธียรมนตรี)
@@ -55,9 +55,9 @@
   * สกัดคุณลักษณะเชิงเวลา (Feature Engineering) คำนวณอัตราการเติบโต (Growth Rate) และดัชนีความเหลื่อมล้ำจีนี (Gini Index: 0.58–0.75)
   * ออกแบบ Interactive Dashboard บน Power BI รองรับการสืบค้นและเปรียบเทียบมิติเชิงพื้นที่เพื่อสนับสนุนการตัดสินใจเชิงนโยบาย
 * **Stack:** `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Microsoft Power BI`, `Jupyter Notebook`
-* 📖 **อ่าน Case Study เต็มรูปแบบ:** [คลิกที่นี่เพื่อดูรายละเอียด](./projects/02-งานวิจัย%20มศว/)
-* 🌐 **Landing Page & Web Showcase:** [เปิดไฟล์ HTML พรีวิว](./projects/02-งานวิจัย%20มศว/index.html)
-* 📄 **เอกสารงานวิจัยฉบับเต็ม:** [ดาวน์โหลดบทความ PDF](./projects/02-งานวิจัย%20มศว/033-บทความสมบูรณ์-Edited.pdf)
+* 📖 **อ่าน Case Study เต็มรูปแบบ:** [คลิกที่นี่เพื่อดูรายละเอียด](./projects/02-dashboard-regional-income/)
+* 🌐 **Landing Page & Web Showcase:** [เปิดไฟล์ HTML พรีวิว](./projects/02-dashboard-regional-income/index.html)
+* 📄 **เอกสารงานวิจัยฉบับเต็ม:** [ดาวน์โหลดบทความ PDF](./projects/02-dashboard-regional-income/033-บทความสมบูรณ์-Edited.pdf)
 
 ---
 
@@ -101,7 +101,7 @@
     │   ├── index.html                 # หน้า Landing Page & Testing Demo
     │   └── assets/                    # โลโก้ และสคริปต์
     │
-    └── 02-งานวิจัย มศว/               # โปรเจกต์ที่ 2: งานวิจัยการวิเคราะห์รายได้ระดับภูมิภาค
+    └── 02-dashboard-regional-income/               # โปรเจกต์ที่ 2: งานวิจัยการวิเคราะห์รายได้ระดับภูมิภาค
         ├── README.md                  # สรุปงานวิจัยเชิงลึก (Case Study & Statistics)
         ├── index.html                 # หน้า Web Showcase สำหรับ GitHub Pages
         ├── 033-บทความสมบูรณ์-Edited.pdf # บทความวิจัยฉบับสมบูรณ์ (Final Paper)
