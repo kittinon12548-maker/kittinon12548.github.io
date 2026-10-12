@@ -26,7 +26,7 @@
 | โปรเจกต์ | หมวดหมู่ | เทคโนโลยีหลัก | ลิงก์รายละเอียด |
 | :--- | :--- | :--- | :---: |
 | **🐱 PetGuard AI** | **AI / Pet-Tech / B2B API** | Python, PyTorch, YOLO, Laravel, Tailwind CSS | [👉 ดู Case Study](./projects/01-petguard-ai/) |
-| **🚀 Project 2 (Coming Soon)** | Full-Stack / Cloud | (เตรียมเพิ่มผลงานถัดไป) | [👉 รายละเอียด](./projects/02-upcoming-project/) |
+| **📊 การวิเคราะห์ความเหลื่อมล้ำของรายได้ (มศว)** | **Data Analytics / BI & EDA** | Python, Power BI, Pandas, Gini Index | [👉 ดู Case Study](./projects/02-งานวิจัย%20มศว/) |
 | **💡 Project 3 (Coming Soon)** | Mobile / Web App | (เตรียมเพิ่มผลงานถัดไป) | กำลังจัดทำ |
 
 ---
@@ -45,6 +45,22 @@
 
 ---
 
+### 2. 📊 [การวิเคราะห์ข้อมูลเชิงหลายมิติของรูปแบบและความเหลื่อมล้ำของรายได้ระดับภูมิภาคในประเทศไทย](./projects/02-งานวิจัย%20มศว/)
+> **การศึกษาความเหลื่อมล้ำทางรายได้ระดับภูมิภาค (พ.ศ. 2554–2566) ด้วยกระบวนการ EDA, การตรวจจับ Outlier, การคำนวณ Gini Index และพัฒนา Interactive Power BI Dashboard**
+
+* **บทบาท:** Lead Data Researcher & Analytics Developer (ร่วมกับ อ.ดร.สุดา เธียรมนตรี)
+* **ความท้าทาย & วิธีแก้ปัญหา:**
+  * ปัญหาความเหลื่อมล้ำและการกระจุกตัวของรายได้ในเขตเมืองหลวงที่ยากต่อการเปรียบเทียบเชิงลึก
+  * ทำ Data Preprocessing และ Outlier Detection (Z-score & IQR Rule) บนข้อมูลเปิดภาครัฐจาก data.go.th ย้อนหลัง 13 ปี
+  * สกัดคุณลักษณะเชิงเวลา (Feature Engineering) คำนวณอัตราการเติบโต (Growth Rate) และดัชนีความเหลื่อมล้ำจีนี (Gini Index: 0.58–0.75)
+  * ออกแบบ Interactive Dashboard บน Power BI รองรับการสืบค้นและเปรียบเทียบมิติเชิงพื้นที่เพื่อสนับสนุนการตัดสินใจเชิงนโยบาย
+* **Stack:** `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Microsoft Power BI`, `Jupyter Notebook`
+* 📖 **อ่าน Case Study เต็มรูปแบบ:** [คลิกที่นี่เพื่อดูรายละเอียด](./projects/02-งานวิจัย%20มศว/)
+* 🌐 **Landing Page & Web Showcase:** [เปิดไฟล์ HTML พรีวิว](./projects/02-งานวิจัย%20มศว/index.html)
+* 📄 **เอกสารงานวิจัยฉบับเต็ม:** [ดาวน์โหลดบทความ PDF](./projects/02-งานวิจัย%20มศว/033-บทความสมบูรณ์-Edited.pdf)
+
+---
+
 ## 🛠️ Technical Skills (ทักษะทางเทคนิค)
 
 ### 💻 Languages & Frameworks
@@ -55,6 +71,8 @@
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
 </p>
 
 ### 🗄️ Database & DevOps
@@ -83,8 +101,14 @@
     │   ├── index.html                 # หน้า Landing Page & Testing Demo
     │   └── assets/                    # โลโก้ และสคริปต์
     │
-    └── 02-upcoming-project/           # โครงสร้างสำหรับผลงานถัดไป
-        └── README.md                  # เทมเพลตพร้อมเขียน
+    └── 02-งานวิจัย มศว/               # โปรเจกต์ที่ 2: งานวิจัยการวิเคราะห์รายได้ระดับภูมิภาค
+        ├── README.md                  # สรุปงานวิจัยเชิงลึก (Case Study & Statistics)
+        ├── index.html                 # หน้า Web Showcase สำหรับ GitHub Pages
+        ├── 033-บทความสมบูรณ์-Edited.pdf # บทความวิจัยฉบับสมบูรณ์ (Final Paper)
+        ├── รายได้ครัวเรือน_code.ipynb  # โค้ด Data Cleaning, EDA & Gini Calculation
+        ├── รายได้ครัวเรือน.pbix       # ต้นฉบับ Power BI Dashboard
+        ├── assets/                    # แผนภาพขั้นตอนและกราฟแสดงผล
+        └── data/                      # ชุดข้อมูลที่ผ่านการประมวลผล (Cleaned Data)
 ```
 
 ---
