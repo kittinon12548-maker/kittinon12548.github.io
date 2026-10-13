@@ -1,7 +1,7 @@
-# 💼 Developer Portfolio & Project Showcase
+﻿# 💼 Developer Portfolio & Project Showcase
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Kittinon%20Portfolio&fontSize=50&fontAlignY=38&desc=Full-Stack%20%7C%20AI%20%26%20IoT%20Solutions%20%7C%20Software%20Engineer&descAlignY=58&descAlign=50" alt="Header Banner" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Kittinon%20Portfolio&fontSize=50&fontAlignY=38&desc=Data%20Analytics%20%7C%20AI%20%26%20Computer%20Vision%20%7C%20Power%20BI&descAlignY=58&descAlign=50" alt="Header Banner" width="100%">
 </p>
 
 <p align="center">
@@ -13,11 +13,11 @@
 ---
 
 ## 👨‍💻 About Me (แนะนำตัว)
-สวัสดีครับ! ยินดีต้อนรับสู่คลังรวบรวมผลงานและโปรเจกต์ของผม พื้นที่นี้สร้างขึ้นเพื่อจัดแสดงผลงานพัฒนาซอฟต์แวร์จริง ทั้งในด้าน **AI/Machine Learning, Backend Web Development, RESTful API Architecture, และ IoT Solutions** สำหรับใช้ประกอบการพิจารณาในเรซูเม (Resume / CV) และพอร์ตโฟลิโอครับ
+สวัสดีครับ! ยินดีต้อนรับสู่คลังรวบรวมผลงานและโปรเจกต์ของผม พื้นที่นี้จัดทำขึ้นเพื่อนำเสนอผลงานจริงด้าน **Data Analytics, Data & AI (Machine Learning / Computer Vision)** และการพัฒนาแดชบอร์ดสรุปข้อมูลเชิงลึก (Business Intelligence) ควบคู่กับทักษะเสริมด้าน Web Development & API สำหรับประกอบการพิจารณาสมัครฝึกงานตำแหน่ง **Data Analyst** และ **Data & AI** ครับ
 
-* 🔭 กำลังมุ่งเน้นการพัฒนา: **AI Integration, B2B Cloud APIs, and Scalable Full-Stack Web Applications**
-* 💡 ความสนใจ: **Pet-Tech, Computer Vision, High Performance Backend, Edge AI**
-* ⚡ จุดเด่น: สามารถออกแบบระบบได้ตั้งแต่โมเดล AI, API Gateway, ฐานข้อมูล จนถึงหน้าบ้าน (End-to-End Development)
+* 🔭 กำลังมุ่งเน้น: **Exploratory Data Analysis (EDA), Business Intelligence (Power BI), และ Image Classification Prototype (Computer Vision)**
+* 💡 ความสนใจ: **Data Analytics, Machine Learning, Computer Vision, และ Data Visualization** (มี Web/API เป็นทักษะเสริมสำหรับต่อยอดระบบ)
+* ⚡ จุดเด่น: ผสานการสกัดและวิเคราะห์ข้อมูลจริง (Data Cleaning, Outlier Detection, Gini Index) เข้ากับความเข้าใจด้านการสร้างต้นแบบ AI Image Classification และการต่อยอดสู่แอปพลิเคชัน
 
 ---
 
@@ -25,27 +25,12 @@
 
 | โปรเจกต์ | หมวดหมู่ | เทคโนโลยีหลัก | ลิงก์รายละเอียด |
 | :--- | :--- | :--- | :---: |
-| **🐱 PetGuard AI** | **AI / Pet-Tech / B2B API** | Python, PyTorch, YOLO, Laravel, Tailwind CSS | [👉 ดู Case Study](./projects/01-petguard-ai/) |
-| **📊 การวิเคราะห์ความเหลื่อมล้ำของรายได้ (มศว)** | **Data Analytics / BI & EDA** | Python, Power BI, Pandas, Gini Index | [👉 ดู Case Study](./projects/02-dashboard-regional-income/) |
-| **💡 Project 3 (Coming Soon)** | Mobile / Web App | (เตรียมเพิ่มผลงานถัดไป) | กำลังจัดทำ |
+| **📊 การวิเคราะห์ความเหลื่อมล้ำของรายได้ระดับภูมิภาคในประเทศไทย (มศว)** | **Data Analytics / BI & EDA** | Python, Pandas, Power BI, Gini Index, EDA | [👉 ดู Case Study](./projects/02-dashboard-regional-income/) |
+| **🐱 PetGuard AI — Image Classification Prototype** | **Data & AI / Computer Vision (B2B Concept)** | Python, Image Classification, Roboflow | [👉 ดู Case Study](./projects/01-petguard-ai/) |
 
 ---
 
-### 1. 🐱 [PetGuard AI — B2B AI Module for Smart Pet Care](./projects/01-petguard-ai/)
-> **B2B AI Module สำหรับตรวจจับและวิเคราะห์ภาพถ่ายอุจจาระแมว เพื่อเฝ้าระวังสุขภาพในกระบะทรายแมวอัจฉริยะ (Smart Cat Litter Box)**
-
-* **บทบาท:** Lead AI & Full-Stack System Architect
-* **ความท้าทาย & วิธีแก้ปัญหา:**
-  * แมวมักจะซ่อนอาการป่วย ทำให้เจ้าของสังเกตความผิดปกติได้ช้า
-  * พัฒนาระบบ AI Computer Vision จำแนกภาพตามมาตรฐาน Feline Stool Scale (FSS) พร้อมตัดภาพพื้นหลังสิ่งรบกวน (ทรายแมว)
-  * สร้าง API Gateway ด้วย Laravel รองรับการส่งภาพจากกล้อง IoT ประมวลผลและตอบกลับแบบ Real-time ด้วยเวลาเพียงระดับเสี้ยววินาที
-* **Stack:** `Python`, `PyTorch`, `Laravel 11`, `PHP 8`, `Tailwind CSS`, `Docker`
-* 📖 **อ่าน Case Study เต็มรูปแบบ:** [คลิกที่นี่เพื่อดูรายละเอียด](./projects/01-petguard-ai/)
-* 🌐 **Landing Page & Testing Playground:** [เปิดไฟล์ HTML พรีวิว](./projects/01-petguard-ai/index.html)
-
----
-
-### 2. 📊 [การวิเคราะห์ข้อมูลเชิงหลายมิติของรูปแบบและความเหลื่อมล้ำของรายได้ระดับภูมิภาคในประเทศไทย](./projects/02-dashboard-regional-income/)
+### 1. 📊 [การวิเคราะห์ข้อมูลเชิงหลายมิติของรูปแบบและความเหลื่อมล้ำของรายได้ระดับภูมิภาคในประเทศไทย](./projects/02-dashboard-regional-income/)
 > **การศึกษาความเหลื่อมล้ำทางรายได้ระดับภูมิภาค (พ.ศ. 2554–2566) ด้วยกระบวนการ EDA, การตรวจจับ Outlier, การคำนวณ Gini Index และพัฒนา Interactive Power BI Dashboard**
 
 * **บทบาท:** Lead Data Researcher & Analytics Developer (ร่วมกับ อ.ดร.สุดา เธียรมนตรี)
@@ -61,21 +46,42 @@
 
 ---
 
+### 2. 🐱 [PetGuard AI — ต้นแบบระบบ AI จำแนกภาพอุจจาระแมวเพื่อการเฝ้าระวังสุขภาพ (B2B Concept)](./projects/01-petguard-ai/)
+> **ต้นแบบระบบจำแนกภาพ AI (Image Classification Prototype) สำหรับคัดกรองลักษณะอุจจาระแมวเบื้องต้น ออกแบบแนวคิดเพื่อให้บริการในรูปแบบ B2B AI / API แก่ผู้ผลิตอุปกรณ์สัตว์เลี้ยง (ไม่ใช่ผู้ผลิตหรือจำหน่ายกระบะทรายโดยตรง)**
+
+* **บทบาท:** ผู้พัฒนาต้นแบบระบบจำแนกภาพ AI (AI Prototype Developer)
+* **สถานะปัจจุบันของ Prototype:**
+  * **ประเภทโมเดล:** Image Classification สำหรับจำแนกภาพอุจจาระแมว
+  * **ชุดข้อมูล (Dataset):** พัฒนาบนชุดข้อมูลรวม 9,664 ภาพ ผ่านกระบวนการ Preprocessing ปรับขนาดภาพ (Resize แบบ Stretch) เป็น 224×224 พิกเซล
+  * **ผลการทดสอบบน Test Set:** ทำนายถูกต้อง 283 จาก 307 ภาพ คิดเป็นความแม่นยำ (Accuracy) **92.2% บน Test set** (ประเมินจาก Confusion Matrix)
+  * **คลาสที่จำแนก (4 Classes):** `soft-poop`, `normal`, `diarrhea`, `lack-of-water`  
+    *(หมายเหตุ: เป็นชื่อ Label ของชุดข้อมูลเท่านั้น ไม่ใช่การยืนยันภาวะสุขภาพ เช่น `lack-of-water` เป็นเพียงชื่อคลาสในชุดข้อมูล ไม่ได้แปลว่าตรวจพบภาวะขาดน้ำ)*
+  * ⚠️ **ข้อจำกัดและคำเตือน:** ระบบนี้เป็นการตรวจคัดกรองลักษณะจากภาพถ่ายเบื้องต้นเท่านั้น ไม่สามารถใช้แทนการวินิจฉัยโรคโดยสัตวแพทย์
+* **แผนพัฒนาต่อ (Future Roadmap):**
+  * พัฒนา RESTful API Gateway ด้วย Laravel เพื่อรองรับการเชื่อมต่อและส่งภาพจากอุปกรณ์ IoT/กล้องภายนอก
+  * ทดสอบและเปรียบเทียบสถาปัตยกรรมโมเดลเชิงลึกเพิ่มเติม เพื่อเพิ่มขีดความสามารถในการแยกแยะสิ่งรบกวน (เช่น ทรายแมว)
+* **Stack ปัจจุบัน:** `Python`, `Image Classification`, `Roboflow`, `HTML/Tailwind CSS (UI Showcase)`  
+  *(วางแผนเชื่อมต่อกับ `Laravel` ในอนาคต)*
+* 📖 **อ่าน Case Study เต็มรูปแบบ:** [คลิกที่นี่เพื่อดูรายละเอียด](./projects/01-petguard-ai/)
+* 🌐 **Landing Page & UI Showcase พรีวิว:** [เปิดไฟล์ HTML พรีวิว](./projects/01-petguard-ai/index.html)
+
+---
+
 ## 🛠️ Technical Skills (ทักษะทางเทคนิค)
 
 ### 💻 Languages & Frameworks
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
 </p>
 
-### 🗄️ Database & DevOps
+### 🗄️ Database & Tools
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
@@ -85,35 +91,35 @@
 </p>
 
 ### 🧠 Core Competencies
-* **AI & Computer Vision:** Model Inference, Image Segmentation, Dataset Preprocessing
-* **API Development:** RESTful API Design, Microservices, API Documentation, Webhooks
-* **Software Architecture:** MVC, Clean Code, Modular Design, Security Best Practices
+* **Data Analytics & BI:** Exploratory Data Analysis (EDA), Data Preprocessing, Outlier Detection (Z-score & IQR Rule), Feature Engineering, Gini Index Calculation, Interactive Dashboard Design (Power BI)
+* **AI & Machine Learning:** Image Classification Prototype, Dataset Preprocessing & Resizing, Model Evaluation (Confusion Matrix & Test Set Accuracy)
+* **Supporting Web & Integration:** RESTful API Design Concepts, Basic Backend Integration (PHP/Laravel), Responsive UI Development
 
 ---
 
 ## 📁 Repository Structure (โครงสร้างโฟลเดอร์)
 
 ```text
-├── README.md                          # หน้าหลัก Portfolio สำหรับเรซูเม
-└── projects/                          # รวมผลงานโปรเจกต์ทั้งหมด
-    ├── 01-petguard-ai/                # โปรเจกต์ที่ 1: PetGuard AI
-    │   ├── README.md                  # สรุปเชิงลึก (Case Study & Architecture)
-    │   ├── index.html                 # หน้า Landing Page & Testing Demo
-    │   └── assets/                    # โลโก้ และสคริปต์
+├── README.md                                  # หน้าหลัก Portfolio สำหรับการสมัครงาน/ฝึกงาน
+└── projects/                                  # รวมผลงานโปรเจกต์
+    ├── 02-dashboard-regional-income/          # โปรเจกต์ที่ 1: การวิเคราะห์ความเหลื่อมล้ำของรายได้ (มศว)
+    │   ├── README.md                          # สรุปงานวิจัยเชิงลึก (Case Study & Statistics)
+    │   ├── index.html                         # หน้า Web Showcase สำหรับ GitHub Pages
+    │   ├── 033-บทความสมบูรณ์-Edited.pdf         # บทความวิจัยฉบับสมบูรณ์ (Final Paper)
+    │   ├── รายได้ครัวเรือน_code.ipynb          # โค้ด Data Cleaning, EDA & Gini Calculation
+    │   ├── รายได้ครัวเรือน.pbix               # ต้นฉบับ Power BI Dashboard
+    │   ├── assets/                            # แผนภาพขั้นตอนและกราฟแสดงผล
+    │   └── data/                              # ชุดข้อมูลที่ผ่านการประมวลผล (Cleaned Data)
     │
-    └── 02-dashboard-regional-income/               # โปรเจกต์ที่ 2: งานวิจัยการวิเคราะห์รายได้ระดับภูมิภาค
-        ├── README.md                  # สรุปงานวิจัยเชิงลึก (Case Study & Statistics)
-        ├── index.html                 # หน้า Web Showcase สำหรับ GitHub Pages
-        ├── 033-บทความสมบูรณ์-Edited.pdf # บทความวิจัยฉบับสมบูรณ์ (Final Paper)
-        ├── รายได้ครัวเรือน_code.ipynb  # โค้ด Data Cleaning, EDA & Gini Calculation
-        ├── รายได้ครัวเรือน.pbix       # ต้นฉบับ Power BI Dashboard
-        ├── assets/                    # แผนภาพขั้นตอนและกราฟแสดงผล
-        └── data/                      # ชุดข้อมูลที่ผ่านการประมวลผล (Cleaned Data)
+    └── 01-petguard-ai/                        # โปรเจกต์ที่ 2: ต้นแบบระบบ AI จำแนกภาพอุจจาระแมว
+        ├── README.md                          # สรุปเชิงลึก (Case Study & Architecture Concept)
+        ├── index.html                         # หน้า Landing Page & UI Demo พรีวิว
+        └── assets/                            # โลโก้ และสคริปต์
 ```
 
 ---
 
 ## 📬 Contact & Links (ช่องทางติดต่อ)
 * **GitHub:** [github.com/kittinon12548-maker](https://github.com/kittinon12548-maker)
-* **Email:** (ใส่อีเมลสำหรับติดต่อที่นี่)
-* **LinkedIn:** (ใส่ลิงก์ LinkedIn ที่นี่)
+* **Email:** [Kittinon12548@gmail.com](mailto:Kittinon12548@gmail.com)
+* **LinkedIn:** [linkedin.com/in/kittinon-chumboon-73250b369](https://www.linkedin.com/in/kittinon-chumboon-73250b369)
